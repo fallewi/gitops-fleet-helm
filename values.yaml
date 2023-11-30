@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: fallewi/fast-api
+  repository: fallewi/fastapi
   pullPolicy: IfNotPresent
   # Overrides the image tag: fdba0a9b1d6356d7471c962a75e15d83d8b51b7b
   tag: fdba0a9b1d6356d7471c962a75e15d83d8b51b7b
