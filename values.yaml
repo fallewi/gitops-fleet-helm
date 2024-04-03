@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: fallewi/fastapi
@@ -69,9 +69,9 @@ resources: {}
   #   memory: 128Mi
 
 autoscaling:
-  enabled: true
-  minReplicas: 10
-  maxReplicas: 100
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 1
   targetCPUUtilizationPercentag: e1f5112be6e4261da0f360796849029d9fed91cf
   # targetMemoryUtilizationPercentag: e1f5112be6e4261da0f360796849029d9fed91cf
 
