@@ -7,8 +7,8 @@ replicaCount: 1
 image:
   repository: fallewi/fastapi
   pullPolicy: IfNotPresent
-  # Overrides the image tag: d18adc5caf3a69ab0f04b655791955c73da59fc8
-  tag: d18adc5caf3a69ab0f04b655791955c73da59fc8
+  # Overrides the image tag: d3af4ed6bc82a9c9cc429cd650a28c891a02ab07
+  tag: d3af4ed6bc82a9c9cc429cd650a28c891a02ab07
 
 imagePullSecrets: []
 nameOverride: ""
@@ -72,8 +72,8 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 1
-  targetCPUUtilizationPercentag: d18adc5caf3a69ab0f04b655791955c73da59fc8
-  # targetMemoryUtilizationPercentag: d18adc5caf3a69ab0f04b655791955c73da59fc8
+  targetCPUUtilizationPercentag: d3af4ed6bc82a9c9cc429cd650a28c891a02ab07
+  # targetMemoryUtilizationPercentag: d3af4ed6bc82a9c9cc429cd650a28c891a02ab07
 
 nodeSelector: {}
 
